@@ -302,13 +302,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8350-common/proprietary/vendor/etc/acdbdata/QRD/lahaina-yupikqrd-snd-card/QRD_Yupik_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/lahaina-yupikqrd-snd-card/QRD_Yupik_Headset_cal.acdb \
     vendor/sony/sm8350-common/proprietary/vendor/etc/acdbdata/QRD/lahaina-yupikqrd-snd-card/QRD_Yupik_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/lahaina-yupikqrd-snd-card/QRD_Yupik_Speaker_cal.acdb \
     vendor/sony/sm8350-common/proprietary/vendor/etc/acdbdata/QRD/lahaina-yupikqrd-snd-card/QRD_Yupik_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/lahaina-yupikqrd-snd-card/QRD_Yupik_workspaceFile.qwsp \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/acdbdata/Sony_sagami_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_sagami_Bluetooth_cal.acdb \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/acdbdata/Sony_sagami_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_sagami_General_cal.acdb \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/acdbdata/Sony_sagami_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_sagami_Global_cal.acdb \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/acdbdata/Sony_sagami_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_sagami_Handset_cal.acdb \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/acdbdata/Sony_sagami_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_sagami_Hdmi_cal.acdb \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/acdbdata/Sony_sagami_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_sagami_Headset_cal.acdb \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/acdbdata/Sony_sagami_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_sagami_Speaker_cal.acdb \
     vendor/sony/sm8350-common/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/sony/sm8350-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd \
     vendor/sony/sm8350-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.10.pmd \
@@ -316,7 +309,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8350-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd \
     vendor/sony/sm8350-common/proprietary/vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd \
     vendor/sony/sm8350-common/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.10.pmd \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/acdbdata/workspaceFile_Sony_sagami.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/workspaceFile_Sony_sagami.qwsp \
     vendor/sony/sm8350-common/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/sony/sm8350-common/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/sony/sm8350-common/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
@@ -422,7 +414,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8350-common/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/sony/sm8350-common/proprietary/vendor/etc/init/init.vendor.wlan.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.wlan.rc \
     vendor/sony/sm8350-common/proprietary/vendor/etc/init/init_thermal-engine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine.rc \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/sony/sm8350-common/proprietary/vendor/etc/init/keymasterd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/keymasterd.rc \
     vendor/sony/sm8350-common/proprietary/vendor/etc/init/mlog_qmi_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mlog_qmi_service.rc \
     vendor/sony/sm8350-common/proprietary/vendor/etc/init/mutualex.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mutualex.rc \
@@ -514,8 +505,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8350-common/proprietary/vendor/etc/qcril_database/upgrade/other/7_version_update_ecc_table_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/7_version_update_ecc_table_qcrilnr.sql \
     vendor/sony/sm8350-common/proprietary/vendor/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql \
     vendor/sony/sm8350-common/proprietary/vendor/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/qdcm_calib_data_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_1.xml \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/qdcm_calib_data_9.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_9.xml \
     vendor/sony/sm8350-common/proprietary/vendor/etc/qdcm_calib_data_Dual_nt35597_cmd_mode_dsi_truly_panel_without_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Dual_nt35597_cmd_mode_dsi_truly_panel_without_DSC.xml \
     vendor/sony/sm8350-common/proprietary/vendor/etc/qdcm_calib_data_Dual_nt35597_video_mode_dsi_truly_panel_without_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Dual_nt35597_video_mode_dsi_truly_panel_without_DSC.xml \
     vendor/sony/sm8350-common/proprietary/vendor/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml \
@@ -626,8 +615,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/kodiak_vertigo_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_vertigo_lsm6dst_0.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/kodiak_vertigo_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_vertigo_lsm6dst_1.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_ak991x_0.json \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_ak991x_0_somc_platform.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_ak991x_0_somc_platform.json \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_ak991x_0_somc_product.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_ak991x_0_somc_product.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_bmp380_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_bmp380_0.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_bu52053nvx_0.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_default_sensors.json \
@@ -644,7 +631,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_irq.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_lps22hh_0.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_lsm6dso_0.json \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_lsm6dso_0_somc_product.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_lsm6dso_0_somc_product.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_lsm6dst_0.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_lsm6dst_1.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_mtp_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_mtp_ak991x_0.json \
@@ -656,7 +642,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_qrd_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_qrd_sx932x_0.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_qrd_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_qrd_tmd3702_0.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_shtw2_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_shtw2_0.json \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_somc_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_somc_default_sensors.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_stk3x3x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_stk3x3x_0.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_sx932x_0.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/lahaina_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_tmd3702_0.json \
@@ -677,7 +662,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/sns_cm.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_cm.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/sns_dae.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_dae.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/sns_device_orient.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_device_orient.json \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/sns_device_orient_somc_platform.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_device_orient_somc_platform.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/sns_diag_filter.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_diag_filter.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/sns_direct_channel.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_direct_channel.json \
     vendor/sony/sm8350-common/proprietary/vendor/etc/sensors/config/sns_distance_bound.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_distance_bound.json \
@@ -781,120 +765,15 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8350-common/proprietary/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/sony/sm8350-common/proprietary/vendor/etc/wifi/aoa_cldb_falcon.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_falcon.bin \
     vendor/sony/sm8350-common/proprietary/vendor/etc/wifi/aoa_cldb_swl14.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_swl14.bin \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/wifi/bdwlan.e47:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.e47 \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/wifi/bdwlan.e48:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.e48 \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/wifi/bdwlan.elf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.elf \
     vendor/sony/sm8350-common/proprietary/vendor/etc/wifi/icm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/icm.conf \
     vendor/sony/sm8350-common/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/sony/sm8350-common/proprietary/vendor/etc/wifi/regdb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/regdb.bin \
     vendor/sony/sm8350-common/proprietary/vendor/etc/wifi/vendor_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/vendor_cmd.xml \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/wifi/wifi_txpower.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wifi_txpower.conf \
     vendor/sony/sm8350-common/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/sony/sm8350-common/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/sony/sm8350-common/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/zoom_noise_reduction/znr_Front_44k.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_Front_44k.tbl \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/zoom_noise_reduction/znr_Front_48k.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_Front_48k.tbl \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/zoom_noise_reduction/znr_Tele_44k.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_Tele_44k.tbl \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/zoom_noise_reduction/znr_Tele_48k.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_Tele_48k.tbl \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/zoom_noise_reduction/znr_UWide_44k.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_UWide_44k.tbl \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/zoom_noise_reduction/znr_UWide_48k.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_UWide_48k.tbl \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/zoom_noise_reduction/znr_Wide_44k.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_Wide_44k.tbl \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/zoom_noise_reduction/znr_Wide_48k.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_Wide_48k.tbl \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/zoom_noise_reduction/znr_default_44k.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_default_44k.tbl \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/zoom_noise_reduction/znr_default_48k.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_default_48k.tbl \
-    vendor/sony/sm8350-common/proprietary/vendor/etc/zoom_noise_reduction/znr_parameter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_parameter.xml \
     vendor/sony/sm8350-common/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/sony/sm8350-common/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/L-cs35l41-dsp1-spk-cali.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/L-cs35l41-dsp1-spk-cali.bin \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/L-cs35l41-dsp1-spk-cali.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/L-cs35l41-dsp1-spk-cali.wmfw \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/L-cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/L-cs35l41-dsp1-spk-prot.bin \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/L-cs35l41-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/L-cs35l41-dsp1-spk-prot.wmfw \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/R-cs35l41-dsp1-spk-cali.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/R-cs35l41-dsp1-spk-cali.bin \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/R-cs35l41-dsp1-spk-cali.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/R-cs35l41-dsp1-spk-cali.wmfw \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/R-cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/R-cs35l41-dsp1-spk-prot.bin \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/R-cs35l41-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/R-cs35l41-dsp1-spk-prot.wmfw \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/a615_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b00 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/a615_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b01 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/a615_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b02 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/a615_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.elf \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/a615_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.mdt \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/a619_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a619_gmu.bin \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/a660_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_gmu.bin \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/a660_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_sqe.fw \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/a660_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.b00 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/a660_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.b01 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/a660_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.b02 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/a660_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.elf \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/a660_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.mdt \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/cs40l20.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l20.bin \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/cs40l25a_a2h.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_a2h.bin \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/cs40l25a_a2h.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_a2h.wmfw \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/cs40l25a_a2h1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_a2h1.bin \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/cs40l25a_a2h2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_a2h2.bin \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/cs40l25a_a2h3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_a2h3.bin \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/cs40l25a_cal.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_cal.bin \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/cs40l25a_cal.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_cal.wmfw \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/egista.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b00 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/egista.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b01 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/egista.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b02 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/egista.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b03 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/egista.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b04 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/egista.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b05 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/egista.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b06 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/egista.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b07 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/egista.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.mdt \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b00 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b01 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b02 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b03 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b04 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b05 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b06 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b07 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b08 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b09 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b10 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b11 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b12 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b13 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b14 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b15 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b16 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b17 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b18 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b19 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.mbn \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass-lt.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.mdt \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b00 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b01 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b02 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b03 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b04 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b05 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b06 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b07 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b08 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b09 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b10 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b11 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b12 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b13 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b14 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b15 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b16 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b17 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b18 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b19 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mbn \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/evass.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mdt \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b03 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/sony/sm8350-common/proprietary/vendor/firmware/tzhdcp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b00 \
     vendor/sony/sm8350-common/proprietary/vendor/firmware/tzhdcp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b01 \
     vendor/sony/sm8350-common/proprietary/vendor/firmware/tzhdcp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b02 \
@@ -933,80 +812,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8350-common/proprietary/vendor/firmware/tztpm.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/tztpm.mdt \
     vendor/sony/sm8350-common/proprietary/vendor/firmware/tzwidevine.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.mbn \
     vendor/sony/sm8350-common/proprietary/vendor/firmware/tzwvcpybuf.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.mbn \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b01 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b02 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b03 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b04 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b05 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b06 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b07 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b08 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b09 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b10 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b11 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b12 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b13 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b14 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b15 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b16 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b17 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b18 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b19 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mbn \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mdt \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_1v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v_unsigned.mbn \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b01 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b02 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b03 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b04 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b05 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b06 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b07 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b08 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b09 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b10 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b11 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b12 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b13 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b14 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b15 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b16 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b17 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b18 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b19 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mbn \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mdt \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_2v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v_unsigned.mbn \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b00 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b01 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b02 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b03 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b04 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b05 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b06 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b07 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b08 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b09 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b10 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b11 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b12 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b13 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b14 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b15 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b16 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b17 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b18 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b19 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mdt \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/yupik_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b00 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b01 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/yupik_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b02 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/yupik_ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b03 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/yupik_ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b04 \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.elf \
-    vendor/sony/sm8350-common/proprietary/vendor/firmware/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.mdt \
     vendor/sony/sm8350-common/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
     vendor/sony/sm8350-common/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
     vendor/sony/sm8350-common/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
