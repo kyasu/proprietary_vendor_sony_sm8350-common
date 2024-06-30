@@ -410,3 +410,10 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
+install_symlink {
+	name: "regdb_regdb_symlink",
+	soc_specific: true,
+	installed_location: "firmware/regdb.bin",
+	symlink_target: "/vendor/etc/wifi/regdb.bin",
+}
+
