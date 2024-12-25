@@ -1672,4 +1672,5 @@ PRODUCT_PACKAGES += \
     sony_ext_uim_ctrl
 
 PRODUCT_PACKAGES += \
+    odm_etc_acdbdata_adsp_avs_config_acdb \
     vendor_firmware_regdb_bin
