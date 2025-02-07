@@ -1652,3 +1652,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     odm_etc_acdbdata_adsp_avs_config_acdb \
     vendor_firmware_regdb_bin
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
