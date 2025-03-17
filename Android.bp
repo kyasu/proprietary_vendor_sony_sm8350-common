@@ -7533,6 +7533,7 @@ cc_prebuilt_library_shared {
                 "libwfdcommonutils_proprietary",
                 "libwfdutils_proprietary",
                 "libwfdconfigutils_proprietary",
+                "libwfdaac_vendor",
                 "libpng",
                 "libwfdmminterface_proprietary",
                 "libwfdcodecv4l2_proprietary",
@@ -7547,7 +7548,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "32",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
