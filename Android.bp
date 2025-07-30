@@ -22063,7 +22063,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libutils",
-                "libui",
+                "libui-v34",
                 "liblog",
                 "libcutils",
                 "libbinder",
@@ -22238,7 +22238,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcammw_util",
                 "libutils",
-                "libui",
+                "libui-v34",
                 "libsomc_camerapal",
                 "libc++",
                 "libc",
